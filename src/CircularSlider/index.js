@@ -27,7 +27,7 @@ const getRadians = (degrees) => {
 
 const generateRange = (min, max) => {
     let rangeOfNumbers = [];
-    for(let i = min; i <= max; i++) {
+    for(let i = min; i <= max; i+=0.1) {
         rangeOfNumbers.push(i);
     }
     return rangeOfNumbers;
